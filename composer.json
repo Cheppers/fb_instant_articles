@@ -1,5 +1,5 @@
 {
-  "name": "drupal/fb_instant_articles",
+  "name": "cheppers/fb_instant_articles",
   "description": "Drupal Facebook Instant Articles.",
   "keywords": ["facebook", "instant", "articles", "drupal"],
   "type": "drupal-module",
@@ -10,5 +10,8 @@
   }],
   "require": {
     "facebook/facebook-instant-articles-sdk-php": "^1.0.0"
+  },
+  "replace": {
+    "drupal/fb_instant_articles": "*"
   }
 }
